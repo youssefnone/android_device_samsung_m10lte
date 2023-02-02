@@ -44,6 +44,10 @@ PRODUCT_PACKAGES += \
     mobicore.rc \
     wifi_device.rc
 
+# Ims
+PRODUCT_PACKAGES += \
+    ims-ext-common
+
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
