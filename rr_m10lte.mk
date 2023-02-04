@@ -29,6 +29,7 @@ $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 PRODUCT_DEVICE := m10lte
 PRODUCT_NAME := rr_m10lte
 PRODUCT_BRAND := samsung
+PRODUCT_MODEL := Galaxy M10
 PRODUCT_MANUFACTURER := samsung
 
 TARGET_VENDOR := samsung
