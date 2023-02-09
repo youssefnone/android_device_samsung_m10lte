@@ -96,6 +96,8 @@ $(call inherit-product, device/samsung/universal7870-common/device-oss_audio.mk)
 # Inherit from common
 $(call inherit-product, device/samsung/universal7870-common/device-common.mk)
 
+$(shell cp -r device/samsung/m10lte/configs/720* vendor/carbon/overlay/wallpaper)
+
 # $(call inherit-product, device/samsung/universal7870-common/device-prebuilt_bsp-vndk.mk)
 
 $(call inherit-product-if-exists, vendor/samsung/m10lte/m10lte-vendor.mk)
