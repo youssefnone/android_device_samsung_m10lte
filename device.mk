@@ -97,7 +97,7 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, device/samsung/universal7870-common/device-common.mk)
 
 $(shell cp -r device/samsung/m10lte/configs/720* vendor/carbon/overlay/wallpaper)
-$(shell cp device/samsung/m10lte/configs/wall*/* vendor/carbon/configs)
+$(shell cp device/samsung/m10lte/configs/wall*/* vendor/carbon/config)
 
 # $(call inherit-product, device/samsung/universal7870-common/device-prebuilt_bsp-vndk.mk)
 
