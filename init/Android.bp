@@ -16,7 +16,6 @@
 
 cc_library_static {
     name: "libinit_m10lte",
-    recovery_available: true,
     srcs: ["init_m10lte.cpp"],
     include_dirs: [
         "system/core/base/include",
